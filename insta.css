@@ -1,0 +1,175 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+main{
+    min-height: 100vh;
+    background-color: white;
+}
+section{
+    padding-top: 80px;
+    width: 800px;
+    height: 80vh;
+    margin:  auto;
+    background-color: white;
+    display: flex;
+}
+#first{
+    display: flex;
+    height: 80vh;
+    width: 800px;
+    padding-top: 32px;
+    margin: auto;
+    background-color: white;
+    align-items: center;
+}
+.phone{
+    height: 90vh;
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.phone img[alt="phone"]{
+    height: 100%;
+    width: 180%;
+}
+.animate{
+    position: absolute;
+    left: 146px;
+    top: 23px;
+    height: 85%;
+    border-radius: 26px;
+    width: 101%;
+    animation-name: instagallery;
+    animation-duration: 16s;
+    animation-timing-function:ease-in;
+    animation-iteration-count: infinite;
+    background-position: center;
+    background-size: cover;
+}
+@keyframes instagallery {
+    0%,
+    100%{
+        background-image: url(./animate\ 1.png);
+    }
+    25%{
+        background-image: url(./animate\ 2.png);
+    }
+    50%{
+        background-image: url(./animate\ 3.png);
+    }
+    75%{
+        background-image: url(./animate\ 4.png);
+    }
+}
+#second{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#login{
+    height: 380px;
+    width: 300px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px gray;
+}
+#name{
+    padding-top: 30px;
+    font-size: 40px;
+}
+.input{
+    margin-top: 40px;
+    width: 210px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    background-color:#FAFAFA;
+}
+.input::placeholder{
+    font-size: 12px;
+    padding-left: 10px;
+}
+.pass{
+    margin-top: 10px;
+    width: 210px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    background-color:#FAFAFA;
+}
+.pass::placeholder{
+    font-size: 12px;
+    padding-left: 10px;
+}
+.button{
+    font-weight: bold;
+    font-size: 15px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    height: 30px;
+    width: 210px;
+    border-radius: 5px;
+    color: white;
+    background-color: #1877F2;
+    border: 1px solid ;
+}
+#or{
+    margin-top: 8px;
+    font-size: large;
+}
+.facebook{
+    color: #385185;
+    margin-top: 10px;
+}
+.forgot{
+    margin-top: 10px;
+    font-size: small;
+}
+#signup{
+    height: 75px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px gray;
+    position: relative;
+}
+.last{
+    position: absolute;
+    margin-top: 25px;
+    left: 50px;
+}
+.different{
+    display: inline;
+    position: absolute;
+    color: #1877F2;
+    left: 200px;
+    bottom: 30px;
+}
+.download{
+    position: relative;
+}
+#get{
+    position: absolute;
+    left: 100px;
+    font-size: large;
+}
+#d1{
+    top: 35px;
+    position: absolute;
+    height: 50px;
+}
+#d2{
+    top: 35px;
+    position: absolute;
+    height: 50px;
+    left: 150px;
+    width: 150px;
+}
